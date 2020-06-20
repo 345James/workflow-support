@@ -11,7 +11,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
   
-    - name: Test running a powershell script
+      - name: Test running a powershell script
         shell: powershell
         run: |
           .\Test-Script.ps1
